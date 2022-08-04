@@ -1,0 +1,31 @@
+#mainContent{
+    width: 900;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0;
+    height: 100%;
+}
+.section{
+    width: 600px;
+    margin: auto;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.section.one{
+    background-image: url(images.jpg/waikiki.jpg);
+
+}
+.overlay{
+    background-color: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 475px;
+    width: 600px;
+    height: 100px;
+    overflow: hidden;
+    -webkit-transition: all 1s ease-in-out .2s;
+}
+.overlay:hover {
+    height: 600px;
+    top: 0;
+}
